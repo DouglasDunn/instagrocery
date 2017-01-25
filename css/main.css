@@ -51,7 +51,7 @@ a:hover{
 }
 
 .hero-container{
-		padding-top:100px;
+	padding-top:100px;
 	text-align: center;
 	width:600px;
 	margin:auto;
@@ -106,15 +106,17 @@ a:hover{
 .bg-primary{
 	width:100%;
 	background: white;
+	padding-top:70px;
 }
 .content-container{
 	width:900px;
 	margin: auto;
+	padding-bottom:70px;
 }
 #intro{
 	display: flex;
 	justify-content: space-between;
-	padding-top:50px;
+
 }
 
 #intro > aside{
@@ -152,6 +154,7 @@ aside > button {
 	padding:12px 40px 12px 40px;
 	color:white;
 	border:0px solid white;
+	font-size: 14px;
 }
 
 .intro-image{
@@ -159,5 +162,54 @@ aside > button {
 	width:391px;
 	height:260px;
 	background: url(../assets/displays.png);
+}
+
+.bg-alter{
+	width:100%;
+	background: #F5F5F5;
+}
+#features{
+	margin: auto;
+	text-align: center;
+	padding-top:20px;
+}
+
+#features > h4{
+	font-size: 30px;
+	color: #606060;
+	line-height: 33px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.feature-flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.feature-flex-item{
+	width:20%;
+}
+
+.feature-flex-item > h5{
+	opacity: 0.8;
+	font-weight: 400;
+	font-size: 20px;
+	color: #282C30;
+	line-height: 1.5;
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+
+.feature-flex-item > p{
+	font-size:14px;
+	color:gray;
+	line-height: 1.5;
+}
+
+.fa{
+	font-size: 68px;
+	color:#284335;
 }
 
