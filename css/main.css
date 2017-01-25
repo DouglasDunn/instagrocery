@@ -22,11 +22,25 @@ header > .container{
 
 .container > h1{
 	margin: 0;
+	color:white;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+h1 > .logo-first{
+	color: #F7971D;
+	line-height: 25px;
+	font-weight: 700;
 }
 
 aside > a {
 	color:white;
 	text-decoration: none;
+	font-weight: 300;
+}
+
+a:hover{
+	cursor:pointer;
 }
 
 .hero{
@@ -53,4 +67,38 @@ aside > a {
 	font-size: 24px;
 	color:#FC9700;
 	font-weight: 300;
+	margin-top:10px;
+}
+
+.hero-input{
+	text-align: center;
+	background: #FFFFFF;
+	border-radius: 5px;
+	width:250px;
+	height:20px;
+	border:0px solid white;
+	padding:10px 12px 10px 12px;
+	margin-top:10px;
+	font-size: 12px;
+	color: #898989;
+	line-height: 14px;
+}
+
+.hero-button{
+	display: block;
+	text-align: center;
+	margin: auto;
+	background: #F7971D;
+	border-radius: 5px;
+	width:274px;
+	height:35px;
+	border:0px solid white;
+	padding:10px 12px 10px 12px;
+	color:white;
+	margin-top:10px;
+}
+
+.hero-button:hover{
+	background: #EC8400;
+	cursor: pointer;
 }
