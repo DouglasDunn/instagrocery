@@ -13,7 +13,7 @@ header{
 }
 
 header > .container{
-	width:900px;
+	width:1000px;
 	margin:auto;
 	display:flex;
 	flex-direction: row;
@@ -109,14 +109,14 @@ a:hover{
 	padding-top:70px;
 }
 .content-container{
-	width:900px;
+	width:1000px;
 	margin: auto;
 	padding-bottom:70px;
 }
 #intro{
+	padding-bottom:60px;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 #intro > aside{
@@ -211,5 +211,52 @@ aside > button {
 .fa{
 	font-size: 68px;
 	color:#284335;
+}
+
+footer{
+	width:100%;
+	background: black;
+	height:100px;
+	line-height: 100px;
+}
+
+.footer-container{
+	color:white;
+	width:100px;
+	margin: auto;
+}
+
+@media (max-width: 1200px) {
+	.footer-container,.container,.content-container,header > .container{
+		width: 100%;
+		padding-left:20px;
+		padding-right:20px;
+    	box-sizing: border-box;
+	}
+
+	.feature-flex-item{
+		width:40%;
+	}
+}
+@media (max-width: 800px){
+	.hero-container{
+		width:100%;
+		padding-left:20px;
+		padding-right:20px;
+    	box-sizing: border-box;
+	}
+	#intro > aside:nth-child(1){
+		width:100%;
+	}
+	.intro-image{
+		display: none;
+	}
+	.feature-flex{
+		align-items: center;
+	}
+	.feature-flex-item{
+		width:100%;
+	}
+
 }
 
