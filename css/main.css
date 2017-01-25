@@ -102,3 +102,62 @@ a:hover{
 	background: #EC8400;
 	cursor: pointer;
 }
+
+.bg-primary{
+	width:100%;
+	background: white;
+}
+.content-container{
+	width:900px;
+	margin: auto;
+}
+#intro{
+	display: flex;
+	justify-content: space-between;
+	padding-top:50px;
+}
+
+#intro > aside{
+	width:43%;
+
+}
+
+#intro > aside:nth-child(1){
+	width:30%;
+}
+
+aside > h4{
+	/* Introducing our app: */
+	opacity: 0.8;
+	font-weight: 400;
+	font-size: 28px;
+	color: #282C30;
+	line-height: 34px;
+	margin-top:2px;
+	margin-bottom:10px;
+}
+
+aside > p{
+	/* Instagrocery is the : */
+	line-height: 1.5;
+	font-size: 16px;
+	color: #92989F;
+	line-height: 24px;
+}
+
+aside > button {
+	margin-top:20px;
+	background: #EC8400;
+	border-radius: 5px;
+	padding:12px 40px 12px 40px;
+	color:white;
+	border:0px solid white;
+}
+
+.intro-image{
+	color:green;
+	width:391px;
+	height:260px;
+	background: url(../assets/displays.png);
+}
+
