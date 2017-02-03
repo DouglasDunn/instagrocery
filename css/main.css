@@ -36,7 +36,7 @@ header > .container{
 h1 > .logo-first{
 	color: #F7971D;
 	line-height: 25px;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 aside > a {
@@ -266,4 +266,3 @@ footer{
 	}
 
 }
-
