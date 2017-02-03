@@ -36,7 +36,7 @@ header > .container{
 h1 > .logo-first{
 	color: #F7971D;
 	line-height: 25px;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 aside > a {
@@ -50,10 +50,11 @@ a:hover{
 }
 
 .hero{
-	background: url(../assets/hero.png);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../assets/hero.png);
 	background-position: center;
 	background-position-y:-85px;
-	height:395px;
+	height: 100vh;
+
 }
 
 .hero-container{
@@ -66,7 +67,8 @@ a:hover{
 .hero-container > h2{
 	font-size: 36px;
 	color:white;
-	font-weight: 700;
+	font-weight: 300;
+	margin-top: 120px;
 }
 
 .hero-container > h3{
@@ -113,6 +115,7 @@ a:hover{
 	width:100%;
 	background: white;
 	padding-top:70px;
+	height: 100vh;
 }
 .content-container{
 	width:1000px;
@@ -265,4 +268,61 @@ footer{
 		width:100%;
 	}
 
+}
+
+.sec2Heading {
+	word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 130px;
+  letter-spacing: 1px;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #555;
+}
+
+.sec2Heading:after {
+    display: block;
+    height: 2px;
+    background-color: #F7971D;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+	}
+
+.pDescription {
+	width: 50%;
+	float: left;
+}
+
+.bg-primary p {
+	color: #555;
+	font-weight: 300;
+  font-size: 25px;
+  text-rendering: optimizeLegibility;
+	padding-left: 80px;
+}
+
+.imgDescription {
+	width: 50%;
+	float: left;
+}
+
+#imgDisplays {
+	padding-left: 90px;
+	margin-top: 20px;
+}
+
+#btn-full {
+	display: inline-block;
+	border-radius: 200px;
+	background-color: #F7971D;
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-weight: 300;
+	font-size: 20px;
+	margin-left: 250px;
+	margin-top: 30px;
 }
